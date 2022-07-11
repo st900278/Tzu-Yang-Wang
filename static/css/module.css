@@ -2,6 +2,7 @@
 {
     padding-left:30px;
     padding-right:30px;
+    padding-top:5px;
 }
 
 .block-container
@@ -34,4 +35,16 @@ a {
 
 .card{
   padding:0px;
+}
+
+img{
+  max-height: 240px;
+}
+
+.card h6{
+  line-height: 10px;
+}
+
+.card img{
+  max-height: 80px;
 }
