@@ -9,8 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "mustache-express": "^1.2.8"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0"
