@@ -1,40 +1,22 @@
-var express = require('express')
-var app = express()
-var path = require('path');
-var fs = require('fs');
-var mustacheExpress = require('mustache-express');
 
-app.engine('html', mustacheExpress());
+let Mustache = require('mustache');
+let fs = require('fs');
 
-app.set('view engine', 'mustache');
-app.set('views', __dirname + '/views');
-//app.use(express.static('../static'));
-app.use('/static', express.static(path.join(__dirname, 'static')));
-app.use('/fortawesome', express.static(path.join(__dirname, 'node_modules/@fortawesome/fontawesome-free')));
-
-var head = fs.readFileSync("views/head.html").toString();
-var sidenav = fs.readFileSync("views/sidenav.html").toString();
-var footer = fs.readFileSync("views/footer.html").toString();
-
-app.get('/', function (req, res) {
-  res.render('index.html', {"head": head, "sidenav": sidenav, "footer": footer});
-})
-
-app.get('/project', function (req, res) {
-  res.render('project.html', {"head": head, "sidenav": sidenav, "footer": footer});
-})
-
-app.get('/publication', function (req, res) {
-  res.render('publication.html', {"head": head, "sidenav": sidenav, "footer": footer});
-})
-
-app.get('/blog', function (req, res) {
-  res.render('blog.html', {"head": head, "sidenav": sidenav, "footer": footer});
-})
+let j = {}
+let publicationJson = JSON.parse(fs.readFileSync('./static/json/publication.json'));
+let publicationTemp = fs.readFileSync('./static/mustache/publication.mustache').toString();
+j['publication'] = Mustache.render(publicationTemp, publicationJson);
 
 
-app.get('/link', function (req, res) {
-  res.render('link.html', {"head": head, "sidenav": sidenav, "footer": footer});
-})
+let grantJson = JSON.parse(fs.readFileSync('./static/json/grant.json'));
+let grantTemp = fs.readFileSync('./static/mustache/grant.mustache').toString();
+j['grant'] = Mustache.render(grantTemp, grantJson);
 
-app.listen(5000)
+let awardJson = JSON.parse(fs.readFileSync('./static/json/award.json'));
+let awardTemp = fs.readFileSync('./static/mustache/award.mustache').toString();
+j['award'] = Mustache.render(awardTemp, awardJson);
+
+
+let indexTemp = fs.readFileSync('./static/mustache/index.mustache').toString();
+
+fs.writeFileSync("index.html", Mustache.render(indexTemp, j));
