@@ -1,0 +1,28 @@
+{
+    "research":[
+        {
+            "title":"PETRA2022 Best Poster Award ", 
+            "date": "Jun 2022"
+        },
+        {
+            "title":"筑波大学　システム情報工学研究科 知能機能システム専攻 専攻長表彰", 
+            "date": "Mar 2019"
+        },
+        {
+            "title":"ACM CSCW2018 Honorable Mention Award ", 
+            "date": "Nov 2018"
+        },
+        {
+            "title":"TAICHI2016 Honorable Mention Award ", 
+            "date": "Aug 2016"
+        }
+
+    ],
+    "others":[
+        {
+            "title":"NCTU Hackathon 3rd place ", 
+            "date": "Feb 2014"
+        }
+    ]
+}
+        

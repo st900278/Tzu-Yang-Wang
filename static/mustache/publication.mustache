@@ -1,0 +1,30 @@
+{{#publication}}
+    <div class="item publication-item">
+        <div class="ui medium header"><i class="small file icon"></i>{{title}}</div>
+        <div class="ui small header author">{{#author}}<span>{{name}}</span> {{/author}}</div>
+        
+            {{#doi}}
+            <a class="ui label" href="{{{doi}}}">
+                DOI
+            </a>
+            {{/doi}}
+            {{#paper}}
+            <a class="ui label" href="{{{paper}}}">
+                Paper
+            </a>
+            {{/paper}}
+            {{#code}}
+            <a class="ui label" href="{{{code}}}">
+                Code
+            </a>
+            {{/code}}
+            {{#tag}}
+            <div class="ui tag label">
+                {{tag}}
+            </div>
+            {{/tag}}
+
+
+    </div>
+
+{{/publication}}
