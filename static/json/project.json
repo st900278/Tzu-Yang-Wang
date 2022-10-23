@@ -1,6 +1,11 @@
 {
     "project":[
-
+        {
+            "title":"Integration of Visual and Proprioception Information while Walking in Virtual Reality", 
+            "description": "近年、より多くの人工現実感（VR）アプリケーションで、ゲームコントローラーだけでなく実空間での身体の動きにより、VR環境内での自らの動きを制御できるようになってきた。この場合，実空間から得られた固有受容情報とVR環境から得られた視覚情報を統合する必要がある。本プロジェクトでは，人がどのようにこれらの情報を脳の中で処理するのかを明らかにする。 ",
+            "label": ["Perception in Virtual Environment"],
+            "image": "./static/images/project/VR_Treadmill.jpg"
+        },
         {
             "title":"Investigating the effect of embodiment level on AR-based remote instruction", 
             "description": "Schegloff has shown the importance of body torque in interpersonal communication. In this project, we investigated how representing different level of instructor's body, which contains different level of nonverbal cue, affected the quality of remote instruction.",
@@ -15,3 +20,4 @@
         }
     ]
 }
+
