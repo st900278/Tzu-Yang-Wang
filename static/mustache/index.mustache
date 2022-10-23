@@ -17,16 +17,12 @@
 
     <div class="ui massive fixed menu">
         <div class="ui container">
-            <a href="#" class="header item">
-                <img class="logo" src="assets/images/logo.png">
-                Project Name
-            </a>
-            <a class="item" href="#home">Home</a>
-            <a class="item" href="#skill">Skills</a>
-            <a class="item" href="#project">Projects</a>
-            <a class="item" href="#publication">Publication</a>
-            <a class="item" href="#achievement">Achievement</a>
-            <a class="item" href="#social-contribution">Social Contribution</a>
+            <a class="header item" href="#home">Home</a>
+            <a class="header item" href="#project">Projects</a>
+            <a class="header item" href="#publication">Publication</a>
+            <a class="header item" href="#activities">Activities</a>
+            
+            <a class="header item right" href="./team.html">Research Team</a>
         </div>
     </div>
 
@@ -86,8 +82,6 @@
                         <span class="ui large  text">
                             I am Tzu-Yang Wang, an assistant professor in Graduate School of Advanced Science and
                             Technology, Japan Advanced Institute of Science and Technology (JAIST).
-
-
                         </span>
                     </p>
                     <p>
@@ -195,9 +189,10 @@
                 <h2 class="ui icon header  center aligned ">
                     <i class="terminal icon"></i>
                     <div class="content">
-                        Programming Skills
+                        Skills
                         <div class="sub header">Python, C#, R, NodeJS</div>
                         <div class="sub header">Unity 3D, Web App Development</div>
+                        <div class="sub header">Motion Tracking, Biosignal sensing (EDA, ECG)</div>
                     </div>
                 </h2>
 
@@ -236,74 +231,7 @@
             <div class="twelve wide column">
 
                 <div class="ui items">
-                    <div class="item">
-                        <div class="image">
-                            <img src="/images/wireframe/image.png">
-                        </div>
-                        <div class="content">
-                            <a class="header">Header</a>
-                            <div class="meta">
-                                <span>Description</span>
-                            </div>
-                            <div class="description">
-                                <p></p>
-                            </div>
-                            <div class="extra">
-                                Additional Details
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="image">
-                            <img src="/images/wireframe/image.png">
-                        </div>
-                        <div class="content">
-                            <a class="header">Header</a>
-                            <div class="meta">
-                                <span>Description</span>
-                            </div>
-                            <div class="description">
-                                <p></p>
-                            </div>
-                            <div class="extra">
-                                Additional Details
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="image">
-                            <img src="/images/wireframe/image.png">
-                        </div>
-                        <div class="content">
-                            <a class="header">Header</a>
-                            <div class="meta">
-                                <span>Description</span>
-                            </div>
-                            <div class="description">
-                                <p></p>
-                            </div>
-                            <div class="extra">
-                                Additional Details
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="image">
-                            <img src="/images/wireframe/image.png">
-                        </div>
-                        <div class="content">
-                            <a class="header">Header</a>
-                            <div class="meta">
-                                <span>Description</span>
-                            </div>
-                            <div class="description">
-                                <p></p>
-                            </div>
-                            <div class="extra">
-                                Additional Details
-                            </div>
-                        </div>
-                    </div>
+                    {{{project}}}
                 </div>
             </div>
         </div>
@@ -343,11 +271,11 @@
         </div>
 
     </div>
-    <div class="main ui container" id="achievement">
+    <div class="main ui container" id="activities">
         <div class="ui grid stackable">
             <div class="four wide column">
 
-                <h1 class="ui header">Achievement</h1>
+                <h1 class="ui header">Activities</h1>
             </div>
             <div class="twelve wide column">
                 <div class="ui grid stackable">
@@ -403,6 +331,17 @@
 
     </div>
 
+
+    <div class="ui  vertical footer segment">
+        <div class="ui center aligned container">
+
+            <div class="ui horizontal small divided link list">
+            Copyright ©2022 Tzu-Yang Wang; Design: Fomantic UI.
+            </div>
+        </div>
+    </div>
+
+
     <!-- Content JS HERE !-->
     <style>
         .last.container {
@@ -425,9 +364,26 @@
             content: ", "
         }
 
+        div#project p{
+            text-align: justify;
+        }
+        p{
+            text-align: justify;
+        }
+
         div.publication-item{
             margin-bottom:1em;
         }
+        div.publication-item div{
+            margin-bottom:0.5em !important;
+        }
+
+        div.footer
+        {
+            margin-top:40px !important;
+        }
+
+
     </style>
 
 

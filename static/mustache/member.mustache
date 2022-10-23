@@ -1,0 +1,44 @@
+<div class="ui header">Co-advised Students in My Team</div>
+<div class="ui cards three">
+    {{#co-advised}}{{^graduate}}
+    <div class="card">
+        <div class="content">
+            <div class="header">{{{name}}}</div>
+            <div class="meta">{{{status}}}</div>
+            <div class="description">
+                {{{description}}}
+            </div>
+            
+        </div>
+        <div class="extra content">
+            {{#label}}
+                <div class="ui label">{{label}}</div>
+            {{/label}}
+        </div>
+    </div>
+    {{/graduate}}
+    {{/co-advised}}
+
+</div>
+<div class="ui header">Other Co-advised Students</div>
+<div class="ui cards three">
+    {{#other-co-advised}}{{^graduate}}
+    <div class="card">
+        <div class="content">
+            <div class="header">{{{name}}}</div>
+            <div class="meta">{{{status}}}</div>
+            <div class="description">
+                {{{description}}}
+            </div>
+            
+        </div>
+        <div class="extra content">
+            {{#label}}
+                <div class="ui label">{{label}}</div>
+            {{/label}}
+        </div>
+    </div>
+    {{/graduate}}
+    {{/other-co-advised}}
+
+</div>

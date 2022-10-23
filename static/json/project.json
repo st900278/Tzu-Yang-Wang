@@ -1,0 +1,17 @@
+{
+    "project":[
+
+        {
+            "title":"Investigating the effect of embodiment level on AR-based remote instruction", 
+            "description": "Schegloff has shown the importance of body torque in interpersonal communication. In this project, we investigated how representing different level of instructor's body, which contains different level of nonverbal cue, affected the quality of remote instruction.",
+            "label": ["Remote Collaboration"],
+            "image": "./static/images/project/AREmbodiment.png"
+        },
+        {
+            "title":"Manipulating dominance and persuasiveness in remote conference", 
+            "description": "Unbalanced conferences are always existed in our daily life. In such conferences, due to unequal dominance, only a few people hold the chance to speak, and other people have little chance to express their opinion. To maintain the diversity of the opinions, we aimed at manipulating attendee's voice to balance the baised dominance and persuasiveness in such situations. ",
+            "label": ["Remote Conference"],
+            "image": "./static/images/project/audiotool.jpg"
+        }
+    ]
+}

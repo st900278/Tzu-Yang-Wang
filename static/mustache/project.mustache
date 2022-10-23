@@ -1,17 +1,24 @@
+{{#project}}
 <div class="item">
-    <div class="image">
-        <img src="/images/wireframe/image.png">
+    <div class="ui image medium">
+        <img src="{{{image}}}">
     </div>
     <div class="content">
-        <a class="header">Header</a>
+        <a class="header">{{{title}}}</a>
         <div class="meta">
-            <span>Description</span>
+            <span></span>
         </div>
-        <div class="description">
-            <p></p>
+        <div class="description justified">
+            <p>{{{description}}}</p>
         </div>
         <div class="extra">
-            Additional Details
+            {{#label}}
+            <div class="ui label">
+                {{label}}
+            </div>
+            
+            {{/label}}
         </div>
     </div>
 </div>
+{{/project}}
