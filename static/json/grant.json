@@ -1,0 +1,72 @@
+{
+    "research":[
+        {
+            "title":"北陸先端科学技術大学院大学 萌芽的研究支援", 
+            "startDate": "Jul 2022",
+            "endDate": "Mar 2023",
+            "topic": "VR会議における集団力学の基礎理解と議論支援手法の提案",
+            "type": "代表"
+        },
+        {
+            "title":"公益財団法人電気通信普及財団　研究調査助成", 
+            "startDate": "Apr 2021",
+            "endDate": "Mar 2022",
+            "topic": "1対多の遠隔指示における指示者支援技術―作業効率に影響する要因の探索",
+            "type": "共同研究"
+        },
+        {
+            "title":"科研費　特別研究員奨励費", 
+            "startDate": "Apr 2021",
+            "endDate": "Mar 2023",
+            "note": "(Stopped in March 2021)",
+            "topic": "機械学習に基づく一対多遠隔協調作業における共通基盤共有システムの開発",
+            "type": "代表"
+        },
+        {
+            "title":"公益財団法人 立石科学技術振興財団 研究助成(C) ", 
+            "startDate": "Apr 2020",
+            "endDate": "Mar 2022",
+            "topic": "深層学習による身体動作予測に基づく遠隔会議システムの開発と評価",
+            "type": "代表"
+        },
+        {
+            "title":"公益財団法人 科学技術融合振興財団 研究課題C ", 
+            "startDate": "Feb 2020",
+            "endDate": "Feb 2021",
+            "topic": "一人称視点協力仮想現実ゲームにおいて視点共有がプレイヤーの状態認識・空間認識に与える影響の解明",
+            "type": "代表"
+        },
+        {
+            "title":"筑波大学 システム情報工学研究科 若手研究者育成プログラム", 
+            "startDate": "Sep 2019",
+            "endDate": "Mar 2020",
+            "type": "代表"
+        }
+    ],
+    "scholorship":[
+        {
+            "title":"日本学術振興会　特別研究員 (DC2)", 
+            "startDate": "Apr 2021",
+            "endDate": "Mar 2023",
+            "note": "(Stopped in Mar 2022)",
+            "type": "代表",
+            "usage": "scholorship"
+        },
+        {
+            "title":"公益財団法人日本台湾交流協会奨学金", 
+            "startDate": "Apr 2019",
+            "endDate": "Mar 2022",
+            "note": "(Stopped in Mar 2021)",
+            "type": "代表",
+            "usage": "scholorship"
+        }
+    ],
+    "travel":[
+        {
+            "title":"SIGCHI Student Travel Grant for CSCW Asia Winter School", 
+            "startDate": "Dec 2019",
+            "type": "代表",
+            "usage": "travel"
+        }
+    ]
+}

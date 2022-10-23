@@ -1,0 +1,99 @@
+{
+    "co-advised":[
+
+        {
+            "name":"鎌田光太郎", 
+            "status": "M1",
+            "graduate": false,
+            "description": "",
+            "label": ["Social Extended Reality"]
+        },
+        {
+            "name":"李秀永(RHIE, Suyeong)", 
+            "status": "M1",
+            "graduate": false,
+            "description": "",
+            "label": ["Novel Interaction Technology"]
+        },
+        {
+            "name":"厳旭(Yan, Xu)", 
+            "status": "M1",
+            "graduate": false,
+            "description": "",
+            "label": ["Remote Collaboration"]
+        },
+        {
+            "name":"ALI MD IMRAN", 
+            "status": "M1",
+            "graduate": false,
+            "description": "",
+            "label": ["Other"]
+        },
+        {
+            "name":"王子鈺(WANG, Ziyu)", 
+            "status": "D3",
+            "graduate": false,
+            "description": "",
+            "label": ["Novel Interaction Technology"]
+        },
+        {
+            "name":"KE, Bingcheng", 
+            "status": "D2",
+            "graduate": false,
+            "description": "",
+            "label": ["Remote Collaboration"]
+        }
+    ], 
+    "other-co-advised":[
+        {
+            "name":"Qi Zhou", 
+            "status": "M2",
+            "graduate": false,
+            "description": "",
+            "label": ["Creativity"]
+        }, 
+        {
+            "name":"ZUO, Zhaoxin", 
+            "status": "M2",
+            "graduate": false,
+            "description": "",
+            "label": ["Novel Interaction Technology"]
+        }, 
+        {
+            "name":"人見　健三郎", 
+            "status": "D2",
+            "graduate": false,
+            "description": "",
+            "label": ["Experimental Psychology"]
+        }, 
+        {
+            "name":"YU, Xiaoling", 
+            "status": "D2",
+            "graduate": false,
+            "description": "",
+            "label": ["Education"]
+        }, 
+        {
+            "name":"WANG, Fei", 
+            "status": "D2",
+            "graduate": false,
+            "description": "",
+            "label": ["Education"]
+        }, 
+        {
+            "name":"WANG, Yingzhi", 
+            "status": "D2",
+            "graduate": false,
+            "description": "",
+            "label": ["Experimental Psychology"]
+        },
+        {
+            "name":"XIA, Jia", 
+            "status": "D2",
+            "graduate": false,
+            "description": "",
+            "label": ["Education"]
+        }
+        
+    ]
+}

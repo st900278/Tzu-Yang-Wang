@@ -1,0 +1,399 @@
+{
+    "publication": [
+        {
+            "title": "Effect of Manipulated Amplitude and Frequency of Human Voice on Dominance and Persuasiveness in Audio Conferences",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Ikkaku Kawaguchi"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                },
+                {
+                    "name": "Mai Otsuki"
+                }
+            ],
+            "journal": "Proceedings of the ACM on Human-Computer Interaction",
+            "volume": "2",
+            "number": "CSCW",
+            "pages": "1--18",
+            "year": 2018,
+            "month": "11",
+            "publisher": "ACM New York, NY, USA", 
+            "paper": "./publication/cscw2018.pdf",
+            "doi": "https://doi.org/10.1145/3274446", 
+            "code": "https://github.com/st900278/teleconference-voice-manipulator",
+            "tag": ["International Journal"],
+            "label": []
+        },
+        {
+            "title": "Effect of body representation level of an avatar on quality of ar-based remote instruction",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Yuji Sato"
+                },
+                {
+                    "name": "Mai Otsuki"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                },
+                {
+                    "name": "Yusuke Suzuki"
+                }
+            ],
+            "journal": "Multimodal Technologies and Interaction",
+            "volume": "4",
+            "number": "1",
+            "pages": "3",
+            "year": 2020,
+            "publisher": "MDPI",
+
+            "paper": "./publication/mti2020.pdf",
+            "doi": "https://doi.org/10.3390/mti4010003", 
+            "tag": ["International Journal"],
+            "label": []
+        },
+        {
+            "title": "Knowing that you know what i know helps. Understanding the effects of knowledge transparency in online knowledge transfer",
+            "author": [
+                {
+                    "name": "Chi-Lan Yang"
+                },
+                {
+                    "name": "Chien Wen Yuan"
+                },
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Hao-Chuan Wang"
+                }
+            ],
+            "journal": "Proceedings of the ACM on Human-Computer Interaction",
+            "volume": "2",
+            "number": "CSCW",
+            "pages": "1--21",
+            "year": 2018,
+            "month": "11",
+            "publisher": "ACM New York, NY, USA",
+            "doi": "https://doi.org/10.1145/3274458", 
+            "tag": ["International Journal"],
+            "label": ["Honorable Mention Award"]
+        },
+        {
+            "title": "Exploring How to Display Referential Action to Support Remote Group Discussion",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Yuki Noaki"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                }
+            ],
+            "booktitle": "Asian CHI Symposium 2021",
+            "pages": "89--96",
+            "year": 2021,
+            "month": "05",
+            "addresss": "Online",
+            "paper": "./publication/asianchi2021.pdf",
+            "doi": "https://doi.org/10.1145/3274458", 
+            "tag": ["International Conference"],
+            "label": []
+        },
+        {
+            "title": "Effects of Active Self-motion on VR Sickness Induced by Visual Motion Perpendicular to Self-motion",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Hiroyasu Ujike"
+                },
+                {
+                    "name": "Shigehito Tanahashi"
+                }
+            ],
+            "booktitle": "International Display Workshops 2020",
+            "pages": "547-549",
+            "year": 2020,
+            "volume": "27",
+            "month": "12",
+            "addresss": "Online",
+            "paper": "./publication/idw2020.pdf",
+            "doi": "https://doi.org/10.36463/idw.2020.0547", 
+            "tag": ["International Conference"],
+            "label": []
+        },
+        {
+            "title": "Exploring Perceived Amplitude of Roll and Pitch Rotation while Walking on a Treadmill and Standing Still",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Hiroyasu Ujike"
+                }
+            ],
+            "note": "The 7th International Symposium on Visually Induced Motion Sensations (VIMS 2020)",
+            "year": 2020,
+            "month": "12",
+            "tag": ["International Conference"],
+            "label": []
+        },
+        {
+            "title": "Developing an AR remote collaboration system with semantic virtual labels and a 3D pointer",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Yuji Sato"
+                },
+                {
+                    "name": "Mai Otsuki"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                },
+                {
+                    "name": "Yusuke Suzuki"
+                }
+            ],
+            "booktitle": "International Conference on Human-Computer Interaction",
+            "pages": "407--417",
+            "year": 2020,
+            "organization": "Springer",
+            "address": "Copenhagen, Denmark",
+            "doi": "https://doi.org/10.1007/978-3-030-50017-7_30", 
+            "tag": ["International Conference"],
+            "label": []
+        },
+        {
+            "title": "Evaluating Workload in One-to-Many Remote Collaboration",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Mai Otsuki"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                }
+            ],
+            "booktitle": "Proceedings of the 15th International Conference on PErvasive Technologies Related to Assistive Environments",
+            "pages": "296--297",
+            "year": 2022,
+            "month": "06",
+            "address": "Corfu, Greece",
+            "paper": "./publication/petra2022.pdf",
+            "doi": "https://doi.org/10.1145/3529190.3534717", 
+            "tag": ["International Poster"],
+            "label": []
+        },
+        {
+            "title": "Investigating how label supports AR remote collabration",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                }
+            ],
+            "note": "CSCW winter school",
+            "year": 2019,
+            "address": "Kyoto, Japan",
+            "month": "12",
+            "tag": ["International Poster"],
+            "label": []
+        },
+        {
+            "title": "Effect of full body avatar in augmented reality remote collaboration",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Yuji Sato"
+                },
+                {
+                    "name": "Mai Otsuki"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                },
+                {
+                    "name": "Yusuke Suzuki"
+                }
+            ],
+            "booktitle": "2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)",
+            "pages": "1221--1222",
+            "year": 2019,
+            "month": "3",
+            "address": "Osaka, Japan",
+            "organization": "IEEE",
+            "paper": "./publication/IEEEVR2019.pdf",
+            "doi": "https://doi.org/10.1109/VR.2019.8798044", 
+            "tag": ["International Poster"],
+            "label": []
+        },
+        {
+            "title": "Who Guides You with What Tools Matters: Understanding and Supporting Document-based Knowledge Transfer with Moderator-Learner Interaction",
+            "author": [
+                {
+                    "name": "Chi-Lan Yang"
+                },
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Hao-Chuan Wang"
+                }
+            ],
+            "booktitle": "TAICHI' 16",
+            "year": 2016,
+            "month": "06",
+            "address": "Taiwan",
+            "organization": "TAICHI",
+            "tag": ["Domestic Conference"],
+            "label": ["Honorable Mention Award"]
+        },
+        {
+            "title": "AR遠隔協調作業における指示者アバタのデザインが作業者に与える印象に関する検討",
+            "author": [
+                {
+                    "name": "大槻 麻衣 "
+                },
+                {
+                    "name": "王 子洋 "
+                },
+                {
+                    "name": "佐藤 勇二 "
+                },
+                {
+                    "name": "葛岡 英明 "
+                },
+                {
+                    "name": "鈴木 雄介 "
+                }
+            ],
+            "booktitle": "インタラクション2019",
+            "year": 2019,
+            "organization": "TAICHI",
+            "month": "03",
+            "url": "http://www.interaction-ipsj.org/proceedings/2019/data/bib/1P-74.html",
+            "tag": ["Domestic Poster"]
+        },
+        {
+            "title": "Effect of Voice Amplitude on Audio Conference",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Ikkaku Kawaguchi"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                }
+            ],
+            "booktitle": "TAICHI' 17",
+            "year": 2017,
+            "organization": "TAICHI",
+            "month": "08",
+            "address": "Taiwan",
+            "tag": ["Domestic Poster"]
+        },
+        {
+            "title": "VR環境での距離手がかりが歩行速度知覚に及ぼす影響",
+            "author": [
+                {
+                    "name": "王 子洋 "
+                },
+                {
+                    "name": "氏家 弘裕 "
+                }
+            ],
+            "booktitle": "立体映像技術研究会(3DIT)",
+            "year": 2021,
+            "organization": "電子情報通信学会",
+            "month": "03",
+            "address": "オンライン", 
+            "url": "https://www.ite.or.jp/ken/paper/202103084Aj0/", 
+            "tag": ["Domestic Conference Non-review"]
+        },
+        {
+            "title": "Investigating how amplitude and frequency affect dominance and persuasiveness",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Ikkaku Kawaguchi"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                },
+                {
+                    "name": "Mai Otsuki"
+                }
+            ],
+            "booktitle": "HIシンポジウム2018",
+            "year": 2018,
+            "organization": "HI学会",
+            "month": "09",
+            "address": "つくば",
+            "tag": ["Domestic Conference Non-review"]
+        },
+        {
+            "title": "Investigating the factors inflencing the speed perception while walking on the treadmill",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                }
+            ],
+            "note": "台湾カフェ2020(Taiwan Young Researcher Workshop)",
+            "year": 2020,
+            "month": "12",
+            "address": "つくば",
+            "tag": ["Invited Talk"]
+        },
+        {
+            "title": "Investigating how features of voice influences dominance and persuasiveness in audio conference",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                }
+            ],
+            "note": "台湾カフェ2019(Taiwan Young Researcher Workshop)",
+            "year": 2019,
+            "month": "12",
+            "address": "つくば",
+            "tag": ["Invited Talk"]
+
+        },
+        {
+            "title": "CSCW2018 参加報告",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                }
+            ],
+            "note": "HI学会誌",
+            "year": 2019,
+            "month": "12",
+            "volume": "21",
+            "number": "1",
+            "tag": ["Others"]
+
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+<div class="ui header large">Research Funding</div>
+<div class="ui list large">
+
+{{#research}}
+<div class="item">
+    <i class="right triangle icon"></i>
+    <div class="content">
+        <div class="header">{{title}} ({{type}})</div>
+        <div class="description">{{startDate}}{{#endDate}} - {{endDate}}{{/endDate}}</div>
+        <div class="description">{{topic}}</div>
+    </div>
+</div>
+
+{{/research}}
+</div>
+<div class="ui header large">Scholorship</div>
+<div class="ui list large">
+
+{{#scholorship}}
+<div class="item">
+    <i class="right triangle icon"></i>
+    <div class="content">
+        <div class="header">{{title}}</div>
+        <div class="description">{{startDate}}{{#endDate}} - {{endDate}}{{/endDate}}</div>
+        <div class="description">{{topic}}</div>
+    </div>
+</div>
+
+{{/scholorship}}
+</div>
+<div class="ui header large">Travel Grant</div>
+<div class="ui list large">
+
+{{#travel}}
+<div class="item">
+    <i class="right triangle icon"></i>
+    <div class="content">
+        <div class="header">{{title}} ({{type}})</div>
+        <div class="description">{{startDate}}{{#endDate}} - {{endDate}}{{/endDate}}</div>
+        <div class="description">{{topic}}</div>
+    </div>
+</div>
+
+{{/travel}}
+</div>

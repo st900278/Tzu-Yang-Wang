@@ -1,0 +1,3 @@
+cd node_modules/fomantic-ui
+npx gulp install
+npx gulp build
