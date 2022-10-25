@@ -246,7 +246,7 @@
         <img src="./static/images/project/VR_Treadmill.jpg" class="ui centered image">
     </div>
     <div class="content">
-        <div class="ui header blue">Integration of Visual and Proprioception Information while Walking in Virtual Reality</div>
+        <div class="ui header">Integration of Visual and Proprioception Information while Walking in Virtual Reality</div>
         <div class="meta">
             <span></span>
         </div>
@@ -266,7 +266,7 @@
         <img src="./static/images/project/AREmbodiment.png" class="ui centered image">
     </div>
     <div class="content">
-        <div class="ui header blue">Investigating the effect of embodiment level on AR-based remote instruction</div>
+        <div class="ui header">Investigating the effect of embodiment level on AR-based remote instruction</div>
         <div class="meta">
             <span></span>
         </div>
@@ -286,7 +286,7 @@
         <img src="./static/images/project/audiotool.jpg" class="ui centered image">
     </div>
     <div class="content">
-        <div class="ui header blue">Manipulating dominance and persuasiveness in remote conference</div>
+        <div class="ui header">Manipulating dominance and persuasiveness in remote conference</div>
         <div class="meta">
             <span></span>
         </div>
@@ -315,7 +315,7 @@
                 <h1 class="ui header">Publication</h1>
             </div>
             <div class="twelve wide column">
-                <div class="ui teal five item inverted menu fluid">
+                <div class="ui teal five item menu fluid">
                     <a class="active item">
                         All
                     </a>
@@ -884,7 +884,7 @@
             console.log(e.target.innerText);
             if(e.target.innerText == "All"){
                 console.log("test");
-                $("#publication div.publication-item").show();
+                $("#publication div.publication-item").show(500);
             }
             else{
                 $("#publication div.publication-item").each((idx, ele) => {
@@ -897,10 +897,10 @@
                     
                     //console.log(ele);
                     if(!tagContents.includes(e.target.innerText)){
-                        $(ele).hide();
+                        $(ele).hide(500);
                     }
                     else{
-                        $(ele).show();
+                        $(ele).show(500);
                     }
 
                 });
