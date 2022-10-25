@@ -19,11 +19,15 @@
             </a>
             {{/code}}
             {{#tag}}
-            <div class="ui tag label">
-                {{tag}}
-            </div>
+                <div class="ui tag label">
+                    {{.}}
+                </div>
             {{/tag}}
-
+            {{#label}}
+                <div class="ui label">
+                    {{.}}
+                </div>
+            {{/label}}
 
     </div>
 

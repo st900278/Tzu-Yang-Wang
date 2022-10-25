@@ -107,7 +107,7 @@
             "addresss": "Online",
             "paper": "./static/publication/asianchi2021.pdf",
             "doi": "https://doi.org/10.1145/3274458", 
-            "tag": ["International Conference"],
+            "tag": ["International Conference", "Oral"],
             "label": []
         },
         {
@@ -131,7 +131,7 @@
             "addresss": "Online",
             "paper": "./static/publication/idw2020.pdf",
             "doi": "https://doi.org/10.36463/idw.2020.0547", 
-            "tag": ["International Conference"],
+            "tag": ["International Conference", "Oral"],
             "label": []
         },
         {
@@ -147,7 +147,7 @@
             "note": "The 7th International Symposium on Visually Induced Motion Sensations (VIMS 2020)",
             "year": 2020,
             "month": "12",
-            "tag": ["International Conference"],
+            "tag": ["International Conference", "Oral"],
             "label": []
         },
         {
@@ -175,7 +175,7 @@
             "organization": "Springer",
             "address": "Copenhagen, Denmark",
             "doi": "https://doi.org/10.1007/978-3-030-50017-7_30", 
-            "tag": ["International Conference"],
+            "tag": ["International Conference", "Oral"],
             "label": []
         },
         {
@@ -198,7 +198,7 @@
             "address": "Corfu, Greece",
             "paper": "./static/publication/petra2022.pdf",
             "doi": "https://doi.org/10.1145/3529190.3534717", 
-            "tag": ["International Poster"],
+            "tag": ["International Conference", "Poster"],
             "label": []
         },
         {
@@ -212,7 +212,7 @@
             "year": 2019,
             "address": "Kyoto, Japan",
             "month": "12",
-            "tag": ["International Poster"],
+            "tag": ["International Conference", "Poster"],
             "label": []
         },
         {
@@ -242,7 +242,7 @@
             "organization": "IEEE",
             "paper": "./static/publication/IEEEVR2019.pdf",
             "doi": "https://doi.org/10.1109/VR.2019.8798044", 
-            "tag": ["International Poster"],
+            "tag": ["International Conference", "Poster"],
             "label": []
         },
         {
@@ -263,7 +263,7 @@
             "month": "06",
             "address": "Taiwan",
             "organization": "TAICHI",
-            "tag": ["Domestic Conference"],
+            "tag": ["Domestic Conference", "Oral"],
             "label": ["Honorable Mention Award"]
         },
         {
@@ -290,7 +290,7 @@
             "organization": "TAICHI",
             "month": "03",
             "url": "http://www.interaction-ipsj.org/proceedings/2019/data/bib/1P-74.html",
-            "tag": ["Domestic Poster"]
+            "tag": ["Domestic Conference", "Poster"]
         },
         {
             "title": "Effect of Voice Amplitude on Audio Conference",
@@ -310,7 +310,7 @@
             "organization": "TAICHI",
             "month": "08",
             "address": "Taiwan",
-            "tag": ["Domestic Poster"]
+            "tag": ["Domestic Conference", "Poster"]
         },
         {
             "title": "VR環境での距離手がかりが歩行速度知覚に及ぼす影響",
@@ -328,7 +328,7 @@
             "month": "03",
             "address": "オンライン", 
             "url": "https://www.ite.or.jp/ken/paper/202103084Aj0/", 
-            "tag": ["Domestic Conference Non-review"]
+            "tag": ["Domestic Conference", "Non-review"]
         },
         {
             "title": "Investigating how amplitude and frequency affect dominance and persuasiveness",
@@ -351,7 +351,7 @@
             "organization": "HI学会",
             "month": "09",
             "address": "つくば",
-            "tag": ["Domestic Conference Non-review"]
+            "tag": ["Domestic Conference", "Non-review"]
         },
         {
             "title": "Investigating the factors inflencing the speed perception while walking on the treadmill",

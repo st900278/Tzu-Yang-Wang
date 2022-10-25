@@ -65,7 +65,7 @@
                     <div class="item">
                         <i class="github icon"></i>
                         <div class="content">
-                            <a>https://github.com/st900278/</a>
+                            <a href="https://github.com/st900278/">https://github.com/st900278/</a>
                         </div>
                     </div>
 
@@ -201,7 +201,8 @@
                         Skills
                         <div class="sub header">Python, C#, R, NodeJS</div>
                         <div class="sub header">Unity 3D, Web App Development</div>
-                        <div class="sub header">Motion Tracking, Biosignal sensing (EDA, ECG)</div>
+                        <div class="sub header">Eye Tracking, Motion Tracking</div>
+                        <div class="sub header">Biosignal sensing (EDA, ECG)</div>
                     </div>
                 </h2>
 
@@ -254,7 +255,7 @@
                 <h1 class="ui header">Publication</h1>
             </div>
             <div class="twelve wide column">
-                <div class="ui teal five item inverted menu fluid">
+                <div class="ui teal five item menu fluid">
                     <a class="active item">
                         All
                     </a>
@@ -325,7 +326,7 @@
                 CSCW (2022, 2021), OZCHI (2022), VRST (2022), CHI (2021, 2020)
 
                 <div class="ui header large">Society Member</div>
-                ACM, Human Interface Society
+                ACM, IPSJ, Human Interface Society
 
                 <div class="ui header large">Others</div>
                 <div class="ui list">
@@ -409,6 +410,35 @@
             $("body, html").animate({
                 scrollTop: position
             } /* speed */);
+        });
+
+
+        $("#publication a.item").on('click', function(e){
+            console.log(e.target.innerText);
+            if(e.target.innerText == "All"){
+                console.log("test");
+                $("#publication div.publication-item").show(500);
+            }
+            else{
+                $("#publication div.publication-item").each((idx, ele) => {
+                
+                    let tags = $(ele).find("div.tag").toArray();
+                    let tagContents = tags.map((elem)=>{
+                        return elem.innerText.trim();
+                    });
+                    
+                    
+                    //console.log(ele);
+                    if(!tagContents.includes(e.target.innerText)){
+                        $(ele).hide(500);
+                    }
+                    else{
+                        $(ele).show(500);
+                    }
+
+                });
+            }
+            
         });
 
     </script>
