@@ -8,6 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="https://kit.fontawesome.com/2dad5a3f46.js" crossorigin="anonymous"></script>
     <script src="./semantic/dist/semantic.min.js"></script>
     	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-08MWNQGG70"></script>
@@ -26,15 +30,48 @@
 
     <div class="ui massive fixed menu">
         <div class="ui container">
-            <a class="header item" href="#topic">Research Topic</a>
-            <a class="header item" href="#member">Members</a>
-            <a class="header item" href="#join">Join My Team</a>
+            <a class="header item" href="./index.html"><i class="home icon"></i>Home</a>
+            <a class="header item" href="#introduction"><i class="fa-solid fa-lightbulb fa-icon"></i>Research</a>
+            <a class="header item" href="#member"><i class="fa-solid fa-user-group fa-icon"></i>Members</a>
+            <a class="header item" href="#join"><i class="fa-solid fa-user-plus fa-icon"></i>Join My Team</a>
 
-            <a class="header item right" href="./index.html">Personal Website</a>
+            
+            <div class="item right">
+                <div class="ui buttons stackable language">
+                    <button class="ui button active">English</button>
+                    <!--<button class="ui button">日本語</button>-->
+                <!--<button class="ui button">中文</button>-->
+            </div>
+            </div>
         </div>
     </div>
 
+    <div class="main ui container" id="introduction">
+        <div class="ui grid stackable">
+            <div class="four wide column">
 
+                <h1 class="ui header">Introduction</h1>
+            </div>
+            <div class="twelve wide column">
+                <div class="ui introduction">
+                    <p class="">
+                        <span class="ui text">
+                            Human-computer interaction (HCI) is an interdisplinary field aiming at understanding how people behave while using computers or other technologies. 
+                            We are interested in how people experience and use modern technologies in their daily life and while working. 
+                            There are two main goals in my team: understanding people and augmenting people. 
+                            For the first goal, we strongly value the importance of psychological and behavioral experiments. Both objective measurement (eye tracking, biosignal sensing, 
+                            and motion tracking) and subjective evaluation were applied, and we use these results to investigate and model people's perception, cognition, and behavior while they are using modern technologies. 
+                            For the send goal, we are also interested in developing novel interaction method to alter people's behavior and strengthen people's ability, and result in a better user experience and QoL (Quality of Life). 
+                             
+                        </span>
+                    </p>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
 
     <div class="main ui container" id="topic">
         <div class="ui grid stackable">
@@ -43,40 +80,69 @@
                 <h1 class="ui header">Research Topic</h1>
             </div>
             <div class="twelve wide column">
-                <div class="header ui justify">My research focuses are how human perceives and understand information from Extended Reality(xR) and how human interacts with each other in such environments. 
-                    Currently, I am interested in following topics or related topics. 
-                </div>
                     
-                <div class="ui list big">
-                    <div class="item">
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                        <div class="header">Remote Collaboration</div>
-                        <div class="description">Understanding how remote collaboration works and developing novel remote collaboration function to improve remote collaboration</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                        <div class="header">Social Extended Reality</div>
-                        <div class="description">Investigating on how people behave in social VR and similar platform</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                        <div class="header">Novel Interaction Technology for Daily Life</div>
-                        <div class="description">Creating new technology or improving current technology to improve people's daily life.</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                        <div class="header">Perception in Virtual Environment</div>
-                        <div class="description">Understanding how people perceive sensory information in virtual environment, and further figuring out the mechanism of people's perception</div>
-                        </div>
-                    </div>
+                <div class="ui top attached tabular menu">
+                    <a class="item active ui large" data-tab="first">xR-based remote collaboration</a>
+                    <a class="item" data-tab="second">Novel Interaction Technology for Daily Life</a>
+                    <a class="item" data-tab="third">Perception in Virtual Environment</a>
                 </div>
+                <div class="ui bottom attached tab segment active" data-tab="first">
+                    <p class="">
+                    <span class="ui text">
+                    Remote communication and collaboration is an important aspect for modern world. Different from face-to-face, people from different location use PC and other 
+                    devices to exchange information and collaborate with each other. There are various types of remote collaboration, such as remote conference, remote instruction, 
+                    remote education, online game, etc. 
+                    </span>
+                    </p>
+                    <p class="">
+                    <span class="ui text">
+                    Instead of conventional teleconferencing tools (such as Zoom, WebEx), xR (Extended Reality) offer people chances to involve not only verbal channel but also nonverbal behavior.
+                    However, in such cases, people behave differently and still often encounter difficulties of situation awareness and information understanding. 
+                    Thus, in this research topic, we investigate people's cognition and behavior while using such xR-based remote collaboation tools. 
+                    Further, we also aim at developing novel xR-based remote collaboration tools to improve the quality of remote collaboration.
+                    </span>
+                    </p>
+
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide"><img  class="ui image centered" src="./static/images/project/one-to-many.jpg"></li>
+                                <li class="glide__slide"><img  class="ui image centered" src="./static/images/project/remote_instruction.png"></li>
+                                <li class="glide__slide"><img  class="ui image centered" src="./static/images/project/vrgd.png"></li>
+                            </ul>
+                        </div>
+                        <div class="glide__bullets" data-glide-el="controls[nav]">
+                            <button class="glide__bullet" data-glide-dir="=0"></button>
+                            <button class="glide__bullet" data-glide-dir="=1"></button>
+                            <button class="glide__bullet" data-glide-dir="=2"></button>
+                        </div>
+                    </div>
+                    <div class="ui medium images">
+                    
+                    
+                    
+                    </div>
+
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="second">
+                <p class="">
+                    <span class="ui text">
+                        Creating new technology or improving current technology to improve people's daily life. (Under construction)
+                    </span>
+                </p>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="third">
+                <p class="">
+                    <span class="ui text">
+                        Understanding how people perceive sensory information in virtual environment, and further figuring out the mechanism of people's perception (Under construction)
+                    </span>
+                </p>
+                </div>
+                </div>
+
+
+                
+
             </div>
         </div>
 
@@ -221,6 +287,16 @@
         div#join p {
             line-height: 1.5em;
             font-size:1.2em;
+            
+        }
+
+        div#introduction p {
+            line-height: 1.5em;
+            font-size:1.4em ;
+        }
+        div#topic p {
+            line-height: 1.5em;
+            font-size:1.4em ;
         }
 
         div.author span:not(:last-of-type)::after {
@@ -238,8 +314,22 @@
         {
             margin-top:40px !important;
         }
+        i.fa-icon
+        {
+            margin: 0 .35714286em 0 0;
+        }
 
+        .justify{
+            text-align: justify !important;
+        }
 
+        div#topic img{
+            height: 200px;
+        }
+        div#member-main img{
+            height: 200px;
+            width: auto;
+        }
     </style>
 
 
@@ -254,6 +344,13 @@
             } /* speed */);
         });
 
+        $('.menu .item').tab();
+
+        new Glide('.glide', {
+            type: "carousel",
+            focusAt: 'center',
+            perView: 2
+        }).mount();
     </script>
 </body>
 

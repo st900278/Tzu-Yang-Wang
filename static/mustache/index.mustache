@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script src="https://kit.fontawesome.com/2dad5a3f46.js" crossorigin="anonymous"></script>
     <script src="./semantic/dist/semantic.min.js"></script>
     	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-08MWNQGG70"></script>
@@ -26,12 +27,19 @@
 
     <div class="ui massive fixed menu">
         <div class="ui container">
-            <a class="header item" href="#home">Home</a>
-            <a class="header item" href="#project">Projects</a>
-            <a class="header item" href="#publication">Publication</a>
-            <a class="header item" href="#activities">Activities</a>
+            <a class="header item" href="#home"><i class="home icon"></i>Home</a>
+            <a class="header item" href="#project"><i class="project diagram icon"></i>Projects</a>
+            <a class="header item" href="#publication"><i class="fa-solid fa-book fa-icon"></i>Publication</a>
+            <a class="header item" href="#activities"><i class="medal icon"></i>Activities</a>
             
-            <a class="header item right" href="./team.html">Research Team</a>
+            <a class="header item" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> Research Team</a>
+            <div class="item right">
+                <div class="ui buttons stackable language">
+                    <button class="ui button active" id="english">English</button>
+                    <button class="ui button" id="japanese">日本語</button>
+                <!--<button class="ui button">中文</button>-->
+                </div>
+            </div>
         </div>
     </div>
 
@@ -81,10 +89,13 @@
                     <a class="ui label big" href="https://researchmap.jp/tzu-yang.wang">
                         Researchmap
                     </a>
-
+                    
+                           
+                    
                 </div>
             </div>
             <div class="ten wide column">
+                
                 <h1 class="ui aligned header">About me</h1>
                 <div class="ui introduction">
                     <p>
@@ -184,6 +195,14 @@
                                     <div class="description">Japan Society for the Promotion of Science (JSPS) </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <i class="briefcase icon"></i>
+                                <div class="content">
+                                    <div class="header large">Research Assitant</div>
+                                    <div class="description">Jun 2019 - Mar 2022</div>
+                                    <div class="description">National Institute of Advanced Industrial Science and Technology (AIST) </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -196,7 +215,7 @@
         <div class="ui three column grid stackable">
             <div class="column">
                 <h2 class="ui icon header  center aligned ">
-                    <i class="terminal icon"></i>
+                    <i class="code icon"></i>
                     <div class="content">
                         Skills
                         <div class="sub header">Python, C#, R, NodeJS</div>
@@ -255,21 +274,21 @@
                 <h1 class="ui header">Publication</h1>
             </div>
             <div class="twelve wide column">
-                <div class="ui teal five item menu fluid">
-                    <a class="active item">
+                <div class="ui grey five item menu fluid">
+                    <a class="active item" data-option="all">
                         All
                     </a>
-                    <a class="item">
+                    <a class="item" data-option="International-Journal">
                         International Journal
                     </a>
-                    <a class="item">
+                    <a class="item" data-option="International-Conference">
                         International Conference
                     </a>
 
-                    <a class="item">
+                    <a class="item" data-option="Domestic-Journal">
                         Domestic Journal
                     </a>
-                    <a class="item">
+                    <a class="item" data-option="Domestic-Conference">
                         Domestic Conference
                     </a>
                 </div>
@@ -396,6 +415,11 @@
         {
             margin-top:40px !important;
         }
+        
+        i.fa-icon
+        {
+            margin: 0 .35714286em 0 0;
+        }
 
 
     </style>
@@ -414,8 +438,10 @@
 
 
         $("#publication a.item").on('click', function(e){
+            $("#publication a.item").removeClass('active');
+            $(e.target).addClass('active');
             console.log(e.target.innerText);
-            if(e.target.innerText == "All"){
+            if($(e.target).attr("data-option") == "all"){
                 console.log("test");
                 $("#publication div.publication-item").show(500);
             }
@@ -429,7 +455,7 @@
                     
                     
                     //console.log(ele);
-                    if(!tagContents.includes(e.target.innerText)){
+                    if(!tagContents.includes($(e.target).attr("data-option").replace('-', ' '))){
                         $(ele).hide(500);
                     }
                     else{
@@ -441,6 +467,9 @@
             
         });
 
+        $("#japanese").on('click', function(e){
+            location.href="./index-jp.html";
+        });
     </script>
 </body>
 

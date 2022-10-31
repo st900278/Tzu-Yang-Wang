@@ -1,9 +1,12 @@
 <div class="ui header">Co-advised Students in My Team</div>
-<div class="ui cards three">
+<div class="ui cards three" id="member-main">
     {{#co-advised}}{{^graduate}}
     <div class="card">
+        <div class="image">
+            <img src="{{#image}}{{image}}{{/image}}{{^image}}https://ui-avatars.com/api/?name={{{name_en}}}&size=256{{/image}}" class="centered ui image">
+        </div>
         <div class="content">
-            <div class="header">{{{name}}}</div>
+            <div class="header">{{{name}}} {{#show_name_en}}({{{name_en}}}){{/show_name_en}}</div>
             <div class="meta">{{{status}}}</div>
             <div class="description">
                 {{{description}}}
@@ -21,23 +24,25 @@
 
 </div>
 <div class="ui header">Other Co-advised Students</div>
-<div class="ui cards three">
+<div class="ui">
     {{#other-co-advised}}{{^graduate}}
-    <div class="card">
-        <div class="content">
-            <div class="header">{{{name}}}</div>
-            <div class="meta">{{{status}}}</div>
-            <div class="description">
-                {{{description}}}
+
+    <div class="ui celled list">
+        <div class="item">
+            <img class="ui avatar image" src="https://ui-avatars.com/api/?name={{{name_en}}}&size=256&rounded=true">
+            <div class="content">
+                <div class="header">{{{name}}} {{{status}}}</div>
+                <div class="meta">{{{description}}}test</div>
             </div>
-            
-        </div>
-        <div class="extra content">
+            <div class="right floated content middle aligned ">
             {{#label}}
                 <div class="ui label">{{label}}</div>
             {{/label}}
+            </div>
+            
         </div>
     </div>
+
     {{/graduate}}
     {{/other-co-advised}}
 

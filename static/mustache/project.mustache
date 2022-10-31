@@ -4,12 +4,21 @@
         <img src="{{{image}}}" class="ui centered image">
     </div>
     <div class="content">
-        <div class="ui header">{{{title}}}</div>
+
+        
+        <div class="ui header">
+            {{#english}}{{{title}}}{{/english}}
+            {{#japanese}}{{{title_jp}}}{{/japanese}}
+        </div>
+
         <div class="meta">
             <span></span>
         </div>
         <div class="description justified">
-            <p>{{{description}}}</p>
+            <p>
+                {{#english}}{{{description}}}{{/english}}
+                {{#japanese}}{{{description_jp}}}{{/japanese}}
+            </p>
         </div>
         <div class="extra">
             {{#label}}

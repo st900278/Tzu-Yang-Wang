@@ -3,57 +3,75 @@
 
         {
             "name":"鎌田光太郎", 
+            "name_en": "Koutaro Kamada",
+            "show_name_en": false,
             "status": "M1",
             "graduate": false,
             "description": "",
             "label": ["Social Extended Reality"]
         },
         {
-            "name":"李秀永(RHIE, Suyeong)", 
+            "name":"李秀永", 
+            "name_en": "Suyeong RHIE",
+            "show_name_en": true,
             "status": "M1",
             "graduate": false,
             "description": "",
             "label": ["Novel Interaction Technology"]
         },
         {
-            "name":"厳旭(Yan, Xu)", 
+            "name":"厳旭", 
+            "name_en": "Xu Yan",
+            "show_name_en": true,
             "status": "M1",
             "graduate": false,
             "description": "",
+            "image": "./static/images/member/yan_xu.jpg",
             "label": ["Remote Collaboration"]
         },
         {
             "name":"ALI MD IMRAN", 
+            "name_en": "ALI MD IMRAN",
+            "show_name_en": false,
             "status": "M1",
             "graduate": false,
             "description": "",
             "label": ["Other"]
         },
         {
-            "name":"王子鈺(WANG, Ziyu)", 
+            "name":"王子鈺", 
+            "name_en": "Ziyu Wang",
+            "show_name_en": true,
             "status": "D3",
             "graduate": false,
             "description": "",
             "label": ["Novel Interaction Technology"]
         },
         {
-            "name":"KE, Bingcheng", 
+            "name":"Bingcheng Ke", 
+            "name_en": "Bingcheng Ke",
+            "show_name_en": false,
             "status": "D2",
             "graduate": false,
             "description": "",
+            "image": "./static/images/member/bingcheng_ke.jpg",
             "label": ["Remote Collaboration"]
         }
     ], 
     "other-co-advised":[
         {
             "name":"Qi Zhou", 
+            "name_en": "Qi Zhou",
+            "show_name_en": false,
             "status": "M2",
             "graduate": false,
             "description": "",
             "label": ["Creativity"]
         }, 
         {
-            "name":"ZUO, Zhaoxin", 
+            "name":"Zhaoxin Zuo", 
+            "name_en": "Zhaoxin Zuo",
+            "show_name_en": false,
             "status": "M2",
             "graduate": false,
             "description": "",
@@ -61,34 +79,44 @@
         }, 
         {
             "name":"人見　健三郎", 
+            "name_en": "Kenzaburo Hitomi", 
+            "show_name_en": false,
             "status": "D2",
             "graduate": false,
             "description": "",
-            "label": ["Experimental Psychology"]
+            "label": ["Ergonomics"]
         }, 
         {
-            "name":"YU, Xiaoling", 
+            "name":"Xiaoling Yu", 
+            "name_en": "Xiaoling Yu", 
+            "show_name_en": false,
             "status": "D2",
             "graduate": false,
             "description": "",
             "label": ["Education"]
         }, 
         {
-            "name":"WANG, Fei", 
+            "name":"Fei Wang", 
+            "name_en": "Fei Wang", 
+            "show_name_en": false,
             "status": "D2",
             "graduate": false,
             "description": "",
             "label": ["Education"]
         }, 
         {
-            "name":"WANG, Yingzhi", 
+            "name":"Yingzhi Wang",
+            "name_en": "Yingzhi Wang", 
+            "show_name_en": false, 
             "status": "D2",
             "graduate": false,
             "description": "",
             "label": ["Experimental Psychology"]
         },
         {
-            "name":"XIA, Jia", 
+            "name":"Jia Xia", 
+            "name_en": "Jia Xia", 
+            "show_name_en": false,
             "status": "D2",
             "graduate": false,
             "description": "",

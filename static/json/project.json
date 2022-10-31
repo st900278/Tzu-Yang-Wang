@@ -2,19 +2,25 @@
     "project":[
         {
             "title":"Integration of Visual and Proprioception Information while Walking in Virtual Reality", 
-            "description": "近年、より多くの人工現実感（VR）アプリケーションで、ゲームコントローラーだけでなく実空間での身体の動きにより、VR環境内での自らの動きを制御できるようになってきた。この場合，実空間から得られた固有受容情報とVR環境から得られた視覚情報を統合する必要がある。本プロジェクトでは，人がどのようにこれらの情報を脳の中で処理するのかを明らかにする。 ",
+            "title_jp":"仮想現実空間での歩行",
+            "description": "Recently, more virtual reality applications allows user to move in virtual environment and real world synchronously. This project focuses on how people integrate sensory information from different environment during walking.",
+            "description_jp": "近年、人工現実感（VR）アプリケーションでは、ゲームコントローラーだけでなく実空間での身体の動きにより、VR環境内での自らの動きを制御できるようになってきた。この場合，実空間から得られた固有受容情報とVR環境から得られた視覚情報を統合する必要がある。本プロジェクトでは，人がどのようにこれらの感覚情報を脳の中で処理するのかを明らかにする。 ",
             "label": ["Perception in Virtual Environment"],
             "image": "./static/images/project/VR_Treadmill.jpg"
         },
         {
             "title":"Investigating the effect of embodiment level on AR-based remote instruction", 
-            "description": "Schegloff has shown the importance of body torque in interpersonal communication. In this project, we investigated how representing different level of instructor's body, which contains different level of nonverbal cue, affected the quality of remote instruction.",
+            "title_jp":"遠隔作業支援におけるアバタの具現化の程度が作業の質に与える効果", 
+            "description": "Researchers have shown the importance of body torque in interpersonal communication. In this project, we investigated how representing different level of instructor's body, which contains different level of nonverbal cue, affected the quality of remote instruction.",
+            "description_jp": "過去のARを用いた遠隔作業支援の研究では，遠隔指示者の手のみを提示するシステムが多いが，body torqueが人のコミュニケーションへの重要性がよく指摘されたため，本研究では遠隔指示者の全身アバターの提示効果に着目して，３種類のアバター（手のみ，手+腕，全身）を比較した。",
             "label": ["Remote Collaboration"],
             "image": "./static/images/project/AREmbodiment.png"
         },
         {
             "title":"Manipulating dominance and persuasiveness in remote conference", 
+            "title_jp":"遠隔会議における音声変更による支配力と説得力の操作",
             "description": "Unbalanced conferences are always existed in our daily life. In such conferences, due to unequal dominance, only a few people hold the chance to speak, and other people have little chance to express their opinion. To maintain the diversity of the opinions, we aimed at manipulating attendee's voice to balance the baised dominance and persuasiveness in such situations. ",
+            "description_jp": "遠隔会議では，支配力と説得力によって全ての参加者が均等に会話できる機会を持っていないことが多く，意見の多様性の低下につながる。こうした状況を改善するために，本研究は非言語的情報である音声の大きさとピッチを操作することで，参加者の支配力と説得力を調整した。",
             "label": ["Remote Conference"],
             "image": "./static/images/project/audiotool.jpg"
         }

@@ -10,6 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
     "bibtex-bibjson": "^0.2.0",
     "fomantic-ui": "^2.9.0",
     "mustache": "^4.2.0",
