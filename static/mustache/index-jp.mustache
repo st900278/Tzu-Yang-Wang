@@ -23,23 +23,50 @@
 
 <body>
 
-
-
-    <div class="ui massive fixed menu">
-        <div class="ui container">
-            <a class="header item" href="#home"><i class="home icon"></i>Home</a>
-            <a class="header item" href="#project"><i class="project diagram icon"></i>プロジェクト</a>
-            <a class="header item" href="#publication"><i class="fa-solid fa-book fa-icon"></i>研究成果</a>
-            <a class="header item" href="#activities"><i class="medal icon"></i>実績</a>
-            
-            <a class="header item" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> 研究チーム</a>
-            <div class="item right">
-                <div class="ui buttons stackable language">
-                    <button class="ui button" id="english">English</button>
-                    <button class="ui button active" id="japanese">日本語</button>
-                <!--<button class="ui button">中文</button>-->
+    <div class="ui grid">
+        <div class="row computer only">
+            <div class="column">
+                <div class="ui massive fixed menu">
+                    <div class="ui container">
+                        <a class="header item" href="#home"><i class="home icon"></i>Home</a>
+                        <a class="header item" href="#project"><i class="project diagram icon"></i>プロジェクト</a>
+                        <a class="header item" href="#publication"><i class="fa-solid fa-book fa-icon"></i>研究成果</a>
+                        <a class="header item" href="#activities"><i class="medal icon"></i>実績</a>
+                        
+                        <a class="header item" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> 研究チーム</a>
+                        <div class="item right">
+                            <div class="ui buttons stackable language">
+                                <button class="ui button active" id="english">English</button>
+                                <button class="ui button" id="japanese">日本語</button>
+                            <!--<button class="ui button">中文</button>-->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="tablet mobile only row">
+            <div class="column">
+                <div class="ui massive fixed menu stackable">
+                    <a id="mobile-menu" class="item"><i class="bars icon"></i></a>
+                    <a class="header item hide-menu" href="#home"><i class="home icon"></i>Home</a>
+                    <a class="header item hide-menu" href="#project"><i class="project diagram icon"></i>プロジェクト</a>
+                    <a class="header item hide-menu" href="#publication"><i class="fa-solid fa-book fa-icon"></i>研究成果</a>
+                    <a class="header item hide-menu" href="#activities"><i class="medal icon"></i>実績</a>
+                    
+                    <a class="header item hide-menu" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> 研究チーム</a>
+                    <div class="item right hide-menu">
+                        <div class="ui buttons stackable language">
+                            <button class="ui button active" id="english">English</button>
+                            <button class="ui button" id="japanese">日本語</button>
+                        <!--<button class="ui button">中文</button>-->
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+           
         </div>
     </div>
 
@@ -466,6 +493,12 @@
         $("#english").on('click', function(e){
             location.href="./index.html";
         });
+
+        $(".hide-menu").each((idx, elem)=>{$(elem).hide()});
+        $("#mobile-menu").on('click', function(){
+            $(".hide-menu").each((idx, elem)=>{$(elem).toggle()});
+        });
+
     </script>
 </body>
 

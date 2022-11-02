@@ -25,25 +25,54 @@
 
 
 
-    <div class="ui massive fixed menu">
-        <div class="ui container">
-            <a class="header item" href="#home"><i class="home icon"></i>Home</a>
-            <a class="header item" href="#project"><i class="project diagram icon"></i>Projects</a>
-            <a class="header item" href="#publication"><i class="fa-solid fa-book fa-icon"></i>Publication</a>
-            <a class="header item" href="#activities"><i class="medal icon"></i>Activities</a>
-            
-            <a class="header item" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> Cyberpsychology & Emerging Techologies Team</a>
-            <div class="item right">
-                <div class="ui buttons stackable language">
-                    <button class="ui button active" id="english">English</button>
-                    <button class="ui button" id="japanese">日本語</button>
-                <!--<button class="ui button">中文</button>-->
+    <div class="ui grid">
+        <div class="row computer only">
+            <div class="column">
+                <div class="ui massive fixed menu">
+                    <div class="ui container">
+                        <a class="header item" href="#home"><i class="home icon"></i>Home</a>
+                        <a class="header item" href="#project"><i class="project diagram icon"></i>Projects</a>
+                        <a class="header item" href="#publication"><i class="fa-solid fa-book fa-icon"></i>Publication</a>
+                        <a class="header item" href="#activities"><i class="medal icon"></i>Activities</a>
+                        
+                        <a class="header item" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> Cyberpsychology & Emerging Techologies Team</a>
+                        <div class="item right">
+                            <div class="ui buttons stackable language">
+                                <button class="ui button active" id="english">English</button>
+                                <button class="ui button" id="japanese">日本語</button>
+                            <!--<button class="ui button">中文</button>-->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="tablet mobile only row">
+            <div class="column">
+                <div class="ui massive fixed menu stackable">
+                    <a id="mobile-menu" class="item"><i class="bars icon"></i></a>
+                    <a class="header item hide-menu" href="#home"><i class="home icon"></i>Home</a>
+                    <a class="header item hide-menu" href="#project"><i class="project diagram icon"></i>Projects</a>
+                    <a class="header item hide-menu" href="#publication"><i class="fa-solid fa-book fa-icon"></i>Publication</a>
+                    <a class="header item hide-menu" href="#activities"><i class="medal icon"></i>Activities</a>
+                    
+                    <a class="header item hide-menu" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> Cyberpsychology & Emerging Techologies Team</a>
+                    <div class="item right hide-menu">
+                        <div class="ui buttons stackable language">
+                            <button class="ui button active" id="english">English</button>
+                            <button class="ui button" id="japanese">日本語</button>
+                        <!--<button class="ui button">中文</button>-->
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+           
+        </div>
     </div>
 
-    <div class="main ui container" id="home">
+    <div class="main ui container " id="home">
         <div class="ui grid stackable">
             <div class="six wide column">
                 <img class="ui medium circular image" src="./static/images/main.jpg">
@@ -915,6 +944,9 @@
             margin: 0 .35714286em 0 0;
         }
 
+        
+    
+
 
     </style>
 
@@ -964,6 +996,13 @@
         $("#japanese").on('click', function(e){
             location.href="./index-jp.html";
         });
+
+
+        $(".hide-menu").each((idx, elem)=>{$(elem).hide()});
+        $("#mobile-menu").on('click', function(){
+            $(".hide-menu").each((idx, elem)=>{$(elem).toggle()});
+        });
+
     </script>
 </body>
 

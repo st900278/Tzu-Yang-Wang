@@ -27,22 +27,50 @@
 <body>
 
 
+    <div class="ui grid">
+        <div class="row computer only">
+            <div class="column">
+                <div class="ui massive fixed menu stackable">
+                    <div class="ui container">
+                        <a class="header item" href="./index.html"><i class="home icon"></i>Home</a>
+                        <a class="header item" href="#introduction"><i class="fa-solid fa-lightbulb fa-icon"></i>Research</a>
+                        <a class="header item" href="#member"><i class="fa-solid fa-user-group fa-icon"></i>Members</a>
+                        <a class="header item" href="#join"><i class="fa-solid fa-user-plus fa-icon"></i>Join My Team</a>
 
-    <div class="ui massive fixed menu">
-        <div class="ui container">
-            <a class="header item" href="./index.html"><i class="home icon"></i>Home</a>
-            <a class="header item" href="#introduction"><i class="fa-solid fa-lightbulb fa-icon"></i>Research</a>
-            <a class="header item" href="#member"><i class="fa-solid fa-user-group fa-icon"></i>Members</a>
-            <a class="header item" href="#join"><i class="fa-solid fa-user-plus fa-icon"></i>Join My Team</a>
+                        
+                        <div class="item right">
+                            <div class="ui buttons stackable language">
+                                <button class="ui button active">English</button>
+                                <!--<button class="ui button">日本語</button>-->
+                            <!--<button class="ui button">中文</button>-->
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tablet mobile only row">
+            <div class="column">
+                <div class="ui massive fixed menu stackable">
+                    <a id="mobile-menu" class="item"><i class="bars icon"></i></a>
+                    <a class="header item hide-menu" href="./index.html"><i class="home icon"></i>Home</a>
+                    <a class="header item hide-menu" href="#introduction"><i class="fa-solid fa-lightbulb fa-icon"></i>Research</a>
+                    <a class="header item hide-menu" href="#member"><i class="fa-solid fa-user-group fa-icon"></i>Members</a>
+                    <a class="header item hide-menu" href="#join"><i class="fa-solid fa-user-plus fa-icon"></i>Join My Team</a>
 
-            
-            <div class="item right">
-                <div class="ui buttons stackable language">
-                    <button class="ui button active">English</button>
-                    <!--<button class="ui button">日本語</button>-->
-                <!--<button class="ui button">中文</button>-->
+                    
+                    <div class="item right hide-menu">
+                        <div class="ui buttons stackable language">
+                            <button class="ui button active">English</button>
+                            <!--<button class="ui button">日本語</button>-->
+                        <!--<button class="ui button">中文</button>-->
+                    </div>
+                    </div>
+                </div>
+
+                
             </div>
-            </div>
+           
         </div>
     </div>
 
@@ -93,10 +121,10 @@
             </div>
             <div class="twelve wide column">
                     
-                <div class="ui top attached tabular menu">
-                    <a class="item active ui large" data-tab="first">xR-based remote collaboration</a>
-                    <a class="item" data-tab="second">Novel Interaction Technology for Daily Life</a>
-                    <a class="item" data-tab="third">Perception in Virtual Environment</a>
+                <div class="ui top attached huge tabular menu stackable">
+                    <a class="item active" data-tab="first">xR Remote Collaboration</a>
+                    <a class="item" data-tab="second">Novel Interaction Technology in Daily Life</a>
+                    <a class="item" data-tab="third">Perception in VR</a>
                 </div>
                 <div class="ui bottom attached tab segment active" data-tab="first">
                     <p class="justify">
@@ -170,7 +198,7 @@
             </div>
             <div class="twelve wide column">
                 <div class="ui header">Co-advised Students in My Team</div>
-<div class="ui cards three" id="member-main">
+<div class="ui cards three doubling" id="member-main">
     <div class="card">
         <div class="image">
             <img src="https://ui-avatars.com/api/?name=Koutaro Kamada&size=256" class="centered ui image">
@@ -272,7 +300,7 @@
 <div class="ui header">Other Co-advised Students</div>
 <div class="ui">
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name=Qi Zhou&size=256&rounded=true">
             <div class="content">
@@ -287,7 +315,7 @@
     </div>
 
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name=Zhaoxin Zuo&size=256&rounded=true">
             <div class="content">
@@ -302,7 +330,7 @@
     </div>
 
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name=Kenzaburo Hitomi&size=256&rounded=true">
             <div class="content">
@@ -317,7 +345,7 @@
     </div>
 
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name=Xiaoling Yu&size=256&rounded=true">
             <div class="content">
@@ -332,7 +360,7 @@
     </div>
 
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name=Fei Wang&size=256&rounded=true">
             <div class="content">
@@ -347,7 +375,7 @@
     </div>
 
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name=Yingzhi Wang&size=256&rounded=true">
             <div class="content">
@@ -362,7 +390,7 @@
     </div>
 
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name=Jia Xia&size=256&rounded=true">
             <div class="content">
@@ -571,6 +599,11 @@
             focusAt: 'center',
             perView: 2
         }).mount();
+
+        $(".hide-menu").each((idx, elem)=>{$(elem).hide()});
+        $("#mobile-menu").on('click', function(){
+            $(".hide-menu").each((idx, elem)=>{$(elem).toggle()});
+        });
     </script>
 </body>
 

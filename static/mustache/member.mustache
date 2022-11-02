@@ -1,5 +1,5 @@
 <div class="ui header">Co-advised Students in My Team</div>
-<div class="ui cards three" id="member-main">
+<div class="ui cards three doubling" id="member-main">
     {{#co-advised}}{{^graduate}}
     <div class="card">
         <div class="image">
@@ -27,7 +27,7 @@
 <div class="ui">
     {{#other-co-advised}}{{^graduate}}
 
-    <div class="ui celled list">
+    <div class="ui list">
         <div class="item">
             <img class="ui avatar image" src="https://ui-avatars.com/api/?name={{{name_en}}}&size=256&rounded=true">
             <div class="content">
