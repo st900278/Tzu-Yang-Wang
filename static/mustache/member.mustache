@@ -6,7 +6,7 @@
             <img src="{{#image}}{{image}}{{/image}}{{^image}}https://ui-avatars.com/api/?name={{{name_en}}}&size=256{{/image}}" class="centered ui image">
         </div>
         <div class="content">
-            <div class="header">{{{name}}} {{#show_name_en}}({{{name_en}}}){{/show_name_en}}</div>
+            <div class="header">{{#link}}<a href="{{link}}" target="_blank">{{/link}}{{{name}}} {{#show_name_en}}({{{name_en}}}){{/show_name_en}}{{#link}}</a>{{/link}}</div>
             <div class="meta">{{{status}}}</div>
             <div class="description">
                 {{{description}}}
