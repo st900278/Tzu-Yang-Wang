@@ -405,7 +405,7 @@
     Container
 ---------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.menu > .ui.container {
     width: 100% !important;
     margin-left: 0 !important;
@@ -1330,7 +1330,7 @@ Floated Menu / Item
       Stackable
   ---------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2031,7 +2031,7 @@ Floated Menu / Item
 .ui.vertical.pointing.menu .menu .active.item::after {
   background-color: #FFFFFF;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.grid .ui.fluid.vertical.pointing.menu .active.item::after {
     display: none;
   }

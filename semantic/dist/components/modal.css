@@ -213,7 +213,7 @@
 
 
 /* Modal Width */
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.modal:not(.fullscreen) {
     width: 95%;
     margin: 0 0 0 0;
@@ -267,7 +267,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.modal > .header {
     padding: 0.75rem 1rem;
   }
@@ -423,7 +423,7 @@
 .modals.dimmer .ui.bottom.aligned.modal {
   bottom: 5vh;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .modals.dimmer .ui.top.aligned.modal {
     top: 1rem;
   }
@@ -533,7 +533,7 @@
 .ui.mini.modal > .header:not(.ui) {
   font-size: 1.3em;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.mini.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -566,7 +566,7 @@
 .ui.tiny.modal > .header:not(.ui) {
   font-size: 1.3em;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.tiny.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -599,7 +599,7 @@
 .ui.small.modal > .header:not(.ui) {
   font-size: 1.3em;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.small.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -632,7 +632,7 @@
 .ui.large.modal > .header:not(.ui) {
   font-size: 1.6em;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.large.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -665,7 +665,7 @@
 .ui.big.modal > .header:not(.ui) {
   font-size: 1.6em;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.big.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -698,7 +698,7 @@
 .ui.huge.modal > .header:not(.ui) {
   font-size: 1.6em;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.huge.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -731,7 +731,7 @@
 .ui.massive.modal > .header:not(.ui) {
   font-size: 1.8em;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.massive.modal {
     width: 95%;
     margin: 0 0 0 0;

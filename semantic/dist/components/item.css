@@ -355,7 +355,7 @@
 }
 
 /* Mobile Only */
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.items:not(.unstackable) > .item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -489,7 +489,7 @@
      Unstackable
   ----------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.unstackable.items > .item > .image,
   .ui.unstackable.items > .item > .image > img {
     width: 125px !important;

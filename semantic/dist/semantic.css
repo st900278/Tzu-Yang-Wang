@@ -1494,7 +1494,7 @@ input::selection {
 
 /* Tablet Or Below */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.buttons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5854,7 +5854,7 @@ input::selection {
 
 /* Mobile */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.ui.ui.container:not(.fluid) {
     width: auto;
     margin-left: 1em;
@@ -6010,7 +6010,7 @@ input::selection {
   overflow: auto;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.scrolling.container.short {
     max-height: 11.25em;
   }
@@ -6227,7 +6227,7 @@ input::selection {
 
 /* Inside grid */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.grid .ui.vertical.divider,
   .ui.grid .stackable.row .ui.vertical.divider {
     display: table;
@@ -44060,7 +44060,7 @@ ol.ui.suffixed.list li::before,
   overflow: auto;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.scrolling.segment.short {
     max-height: 11.25em;
   }
@@ -44503,7 +44503,7 @@ ol.ui.suffixed.list li::before,
 
 /* Mobile (Default) */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.steps:not(.unstackable) {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -47151,7 +47151,7 @@ span.ui.massive.text {
 
 /* Swap to full width on mobile */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.form .fields {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -47580,7 +47580,7 @@ span.ui.massive.text {
          Page Grid
   -------------------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.page.grid {
     width: auto;
     padding-left: 0;
@@ -47920,7 +47920,7 @@ span.ui.massive.text {
 
 /* Mobile Sizing Combinations */
 
-@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+@media only screen and (min-width: 320px) and (max-width: 991px) {
   .ui.grid > .row > [class*="one wide mobile"].column,
   .ui.grid > .column.row > [class*="one wide mobile"].column,
   .ui.grid > [class*="one wide mobile"].column,
@@ -49041,7 +49041,7 @@ span.ui.massive.text {
 
 /* Mobile */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui[class*="mobile reversed"].grid,
   .ui[class*="mobile reversed"].grid > .row,
   .ui.grid > [class*="mobile reversed"].row {
@@ -49338,7 +49338,7 @@ span.ui.massive.text {
 
 /* Mobile Only */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.grid > .doubling.row,
   .ui.doubling.grid > .row {
     margin: 0 !important;
@@ -49449,7 +49449,7 @@ span.ui.massive.text {
         Stackable
   --------------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.ui.ui.ui.stackable.grid {
     width: auto;
     margin-left: 0 !important;
@@ -49538,7 +49538,7 @@ span.ui.massive.text {
 
 /* Mobile Only Hide */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui[class*="tablet only"].grid.grid.grid:not(.mobile),
   .ui.grid.grid.grid > [class*="tablet only"].row:not(.mobile),
   .ui.grid.grid.grid > [class*="tablet only"].column:not(.mobile),
@@ -50214,7 +50214,7 @@ span.ui.massive.text {
     Container
 ---------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.menu > .ui.container {
     width: 100% !important;
     margin-left: 0 !important;
@@ -51242,7 +51242,7 @@ Floated Menu / Item
       Stackable
   ---------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -52070,7 +52070,7 @@ Floated Menu / Item
   background-color: #FFFFFF;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.grid .ui.fluid.vertical.pointing.menu .active.item::after {
     display: none;
   }
@@ -53342,7 +53342,7 @@ Floated Menu / Item
 
 /* Responsive */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.table:not(.unstackable) {
     width: 100%;
     padding: 0;
@@ -57598,7 +57598,7 @@ Floated Menu / Item
   display: none;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.mobile.ad {
     display: block;
   }
@@ -59537,7 +59537,7 @@ a.ui.basic.inverted.black.card:hover,
 
 /* Mobile Only */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.two.doubling.cards {
     margin-left: 0;
     margin-right: 0;
@@ -59745,7 +59745,7 @@ a.ui.basic.inverted.black.card:hover,
         Stackable
   --------------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.cards {
     display: block !important;
   }
@@ -60965,7 +60965,7 @@ a.inverted.ui.card:hover,
 
 /* Mobile Only */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.items:not(.unstackable) > .item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -61115,7 +61115,7 @@ a.inverted.ui.card:hover,
      Unstackable
   ----------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.unstackable.items > .item > .image,
   .ui.unstackable.items > .item > .image > img {
     width: 125px !important;
@@ -61774,7 +61774,7 @@ a.inverted.ui.card:hover,
       Stackable
   ---------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.stackable.statistics {
     width: auto;
     margin-left: 0 !important;
@@ -64474,7 +64474,7 @@ select.ui.dropdown {
   padding: 0.78571429rem 1.14285714rem;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.selection.dropdown.short .menu {
     max-height: 6.01071429rem;
   }
@@ -64827,7 +64827,7 @@ select.ui.dropdown {
   -webkit-overflow-scrolling: touch;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.search.dropdown .menu {
     max-height: 8.01428571rem;
   }
@@ -65568,7 +65568,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
     max-height: 10.28571429rem;
@@ -67389,7 +67389,7 @@ body.pushable > .pusher {
 
 /* Modal Width */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.modal:not(.fullscreen) {
     width: 95%;
     margin: 0 0 0 0;
@@ -67453,7 +67453,7 @@ body.pushable > .pusher {
 
 /* Mobile */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.modal > .header {
     padding: 0.75rem 1rem;
   }
@@ -67631,7 +67631,7 @@ body.pushable > .pusher {
   bottom: 5vh;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .modals.dimmer .ui.top.aligned.modal {
     top: 1rem;
   }
@@ -67759,7 +67759,7 @@ body.pushable > .pusher {
   font-size: 1.3em;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.mini.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -67798,7 +67798,7 @@ body.pushable > .pusher {
   font-size: 1.3em;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.tiny.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -67837,7 +67837,7 @@ body.pushable > .pusher {
   font-size: 1.3em;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.small.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -67876,7 +67876,7 @@ body.pushable > .pusher {
   font-size: 1.6em;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.large.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -67915,7 +67915,7 @@ body.pushable > .pusher {
   font-size: 1.6em;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.big.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -67954,7 +67954,7 @@ body.pushable > .pusher {
   font-size: 1.6em;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.huge.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -67993,7 +67993,7 @@ body.pushable > .pusher {
   font-size: 1.8em;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.massive.modal {
     width: 95%;
     margin: 0 0 0 0;
@@ -68641,7 +68641,7 @@ a.ui.nag {
   width: 550px;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   [data-tooltip][data-variation~="fixed"]::after {
     width: 250px;
   }
@@ -69187,7 +69187,7 @@ a.ui.nag {
   width: 550px;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.wide.popup,
   .ui[class*="very wide"].popup {
     max-width: 250px;
@@ -72153,7 +72153,7 @@ a.ui.nag {
   -webkit-overflow-scrolling: touch;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.scrolling.search > .results {
     max-height: 12.17714286em;
   }
@@ -72177,7 +72177,7 @@ a.ui.nag {
   }
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.search.short > .results {
     max-height: 12.17714286em;
   }
@@ -72311,7 +72311,7 @@ a.ui.nag {
       Mobile
 ---------------*/
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 991px) {
   .ui.search .results {
     max-width: calc(100vw - 2rem);
   }
