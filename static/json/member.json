@@ -38,6 +38,7 @@
             "status": "M1",
             "graduate": false,
             "description": "",
+            "image": "./static/images/member/imran_ali.jpeg",
             "label": ["Other"]
         },
         {

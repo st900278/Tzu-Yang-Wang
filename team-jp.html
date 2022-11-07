@@ -32,18 +32,18 @@
             <div class="column">
                 <div class="ui massive fixed menu stackable">
                     <div class="ui container">
-                        <a class="header item" href="./index.html"><i class="home icon"></i>Home</a>
-                        <a class="header item" href="#introduction"><i class="fa-solid fa-lightbulb fa-icon"></i>Research</a>
-                        <a class="header item" href="#member"><i class="fa-solid fa-user-group fa-icon"></i>Members</a>
-                        <a class="header item" href="#join"><i class="fa-solid fa-user-plus fa-icon"></i>Join My Team</a>
+                        <a class="header item" href="./index-jp.html"><i class="home icon"></i>Home</a>
+                        <a class="header item" href="#introduction"><i class="fa-solid fa-lightbulb fa-icon"></i>研究</a>
+                        <a class="header item" href="#member"><i class="fa-solid fa-user-group fa-icon"></i>メンバー</a>
+                        <a class="header item" href="#join"><i class="fa-solid fa-user-plus fa-icon"></i>興味ある方へ</a>
 
                         
                         <div class="item right">
                             <div class="ui buttons stackable language">
-                                <button class="ui button active" id="english">English</button>
-                                <button class="ui button" id="japanese">日本語</button>
+                                <button class="ui button" id="english">English</button>
+                                <button class="ui button active" id="japanese">日本語</button>
                             <!--<button class="ui button">中文</button>-->
-                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,20 +78,25 @@
         <div class="ui grid stackable">
             <div class="four wide column">
 
-                <h1 class="ui header">Introduction</h1>
+                <h1 class="ui header">紹介</h1>
             </div>
             <div class="twelve wide column">
                 <div class="ui introduction">
                     <p class="justify">
                         <span class="ui text ">
-                            Cyberpsychology & Emerging Technologies (CET) Team was started in Apr 2022. The team is working under <a href="http://www.jaist.ac.jp/ks/labs/yuizono/">Yuizono Laboratory</a> in JAIST. 
-                            <a href="./index.html">Tzu-Yang Wang</a> is the team leader, and <a href="https://fp.jaist.ac.jp/public/Default2.aspx?id=454&l=1">Takaya Yuizono </a> is the advisor.
+                            Cyberpsychology & Emerging Technologies (CET) チームは2022年4月より<a href="http://www.jaist.ac.jp/ks/labs/yuizono/">由井薗研</a>の下で立ち上げました。
+                            チームリーダーは<a href="./index.html">王子洋</a>で，<a href="https://fp.jaist.ac.jp/public/Default2.aspx?id=454&l=1">由井薗 隆也先生</a>はチームのメンターを担当しています。
                             
                              
                         </span>
                     </p>
                     <p class="justify">
                         <span class="ui text">
+                        <!--人々の生活はテクノロジーに囲まれていますが、これらの新しいテクノロジーが日常生活や仕事においてどのように人々を形成し、影響を与えるかに焦点をあてています。サイバーサイコロジー＆エマージングテクノロジー研究チームには、「人を理解すること」と「人を拡張すること」という2つの大きな目標があります。
+                            第一の目標は，人々が現代のテクノロジーとどのように関わっているかを、心理学的側面と行動学的側面の両方から調査することに重点を置いています。心理・行動実験を行い 
+                            心理・行動実験を行い、客観的計測（アイトラッキング、生体信号計測、モーショントラッキング）と主観的評価の両方を適用することで、これらの新しいテクノロジーを使っているときの人々の知覚、認知、行動を調査し、モデル化しています。
+                            また、第二の目標として、人々の行動を変化させ、人々の能力を強化し、より良いユーザー体験とQoL（Quality of Life）をもたらす新規の新技術を改良・開発することに関心があります。
+-->
                             As people's life is surrounded by technologies, we focus on how these emerging techologies shape and influence people in their daily life and work. 
                             There are two main goals in Cyberpsychology & Emerging Technologies Team: understanding people and augmenting people. 
                             For the first goal, we pay much attention on investigating how people interact with modern technologies in both psychological aspect and behavioral aspect. By conducting psychological and behavioral experiments 
@@ -605,8 +610,8 @@
             $(".hide-menu").each((idx, elem)=>{$(elem).toggle()});
         });
 
-        $("#japanese").on('click', function(e){
-            location.href="./team-jp.html";
+        $("#english").on('click', function(e){
+            location.href="./team.html";
         });
     </script>
 </body>

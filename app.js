@@ -79,3 +79,13 @@ fs.writeFileSync("index-jp.html", Mustache.render(indexJpTemp, indexJpJson));
 
 
 ////////////////////////////////////////////////////////////////////////////////////
+
+let teamJpJson = {}
+//let memberJson = JSON.parse(fs.readFileSync('./static/json/member.json'));
+//let memberTemp = fs.readFileSync('./static/mustache/member.mustache').toString();
+teamJpJson['member'] = Mustache.render(memberTemp, memberJson); 
+
+let teamJpTemp = fs.readFileSync('./static/mustache/team-jp.mustache').toString();
+
+
+fs.writeFileSync("team-jp.html", Mustache.render(teamJpTemp, teamJpJson));
