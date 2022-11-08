@@ -36,8 +36,8 @@
                         <a class="header item" href="./team-jp.html"><i class="fa-solid fa-people-group fa-icon"></i> 研究チーム</a>
                         <div class="item right">
                             <div class="ui buttons stackable language">
-                                <button class="ui button" id="english">English</button>
-                                <button class="ui button active" id="japanese">日本語</button>
+                                <button class="ui button english">English</button>
+                                <button class="ui button active japanese">日本語</button>
                             <!--<button class="ui button">中文</button>-->
                             </div>
                         </div>
@@ -57,8 +57,8 @@
                     <a class="header item hide-menu" href="./team.html"><i class="fa-solid fa-people-group fa-icon"></i> 研究チーム</a>
                     <div class="item right hide-menu">
                         <div class="ui buttons stackable language">
-                            <button class="ui button active" id="english">English</button>
-                            <button class="ui button" id="japanese">日本語</button>
+                            <button class="ui button english">English</button>
+                            <button class="ui button active japanese">日本語</button>
                         <!--<button class="ui button">中文</button>-->
                         </div>
                     </div>
@@ -490,7 +490,7 @@
         });
 
 
-        $("#english").on('click', function(e){
+        $(".english").on('click', function(e){
             location.href="./index.html";
         });
 

@@ -40,8 +40,8 @@
                         
                         <div class="item right">
                             <div class="ui buttons stackable language">
-                                <button class="ui button active" id="english">English</button>
-                                <button class="ui button" id="japanese">日本語</button>
+                                <button class="ui button active english">English</button>
+                                <button class="ui button japanese">日本語</button>
                             <!--<button class="ui button">中文</button>-->
                         </div>
                         </div>
@@ -61,8 +61,8 @@
                     
                     <div class="item right hide-menu">
                         <div class="ui buttons stackable language">
-                            <button class="ui button active">English</button>
-                            <!--<button class="ui button">日本語</button>-->
+                            <button class="ui button active english">English</button>
+                            <button class="ui button japanese">日本語</button>
                         <!--<button class="ui button">中文</button>-->
                     </div>
                     </div>
@@ -397,7 +397,7 @@
             $(".hide-menu").each((idx, elem)=>{$(elem).toggle()});
         });
 
-        $("#japanese").on('click', function(e){
+        $(".japanese").on('click', function(e){
             location.href="./team-jp.html";
         });
     </script>
