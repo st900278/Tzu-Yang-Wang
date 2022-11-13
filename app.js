@@ -51,6 +51,9 @@ let memberJson = JSON.parse(fs.readFileSync('./static/json/member.json'));
 let memberTemp = fs.readFileSync('./static/mustache/member.mustache').toString();
 teamJson['member'] = Mustache.render(memberTemp, memberJson); 
 
+let joinTemp = fs.readFileSync('./static/mustache/join.mustache').toString();
+teamJson['join'] = Mustache.render(joinTemp, {}); 
+
 let teamTemp = fs.readFileSync('./static/mustache/team.mustache').toString();
 
 
@@ -84,6 +87,8 @@ let teamJpJson = {}
 //let memberJson = JSON.parse(fs.readFileSync('./static/json/member.json'));
 //let memberTemp = fs.readFileSync('./static/mustache/member.mustache').toString();
 teamJpJson['member'] = Mustache.render(memberTemp, memberJson); 
+
+teamJpJson['join'] = Mustache.render(joinTemp, {}); 
 
 let teamJpTemp = fs.readFileSync('./static/mustache/team-jp.mustache').toString();
 
