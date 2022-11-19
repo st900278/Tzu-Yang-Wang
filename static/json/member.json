@@ -8,6 +8,7 @@
             "status": "M1",
             "graduate": false,
             "description": "",
+            "image": "./static/images/member/kamada_koutaro.jpg", 
             "label": ["Social Extended Reality"]
         },
         {
