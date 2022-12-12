@@ -135,6 +135,54 @@
             "label": []
         },
         {
+            "title": "Effect of View Sharing on Spatial Knowledge Acquisition in Remote Collaboration",
+            "author": [
+                
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Ikkaku Kawaguchi"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                },
+                {
+                    "name": "Mai Otsuki"
+                }
+            ],
+            "booktitle": "ACM Symposium on Spatial User Interaction",
+            "year": 2022,
+            "month": "12",
+            "addresss": "Online",
+            "paper": "./static/publication/sui2022.pdf",
+            "doi": "https://doi.org/10.1145/3565970.3567699", 
+            "tag": ["International Conference", "Oral"],
+            "label": []
+        },
+        {
+            "title": "Assessment of Instructor’s Capacity in One-to-Many AR Remote Instruction Giving",
+            "author": [
+                {
+                    "name": "Mai Otsuki"
+                },
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Hideaki Kuzuoka"
+                }
+            ],
+            "booktitle": "ACM Symposium on Virtual Reality Software and Technology",
+            "year": 2022,
+            "month": "11",
+            "addresss": "Tsukuba",
+            "paper": "./static/publication/vrst2022.pdf",
+            "doi": "https://doi.org/10.1145/3562939.3565631", 
+            "tag": ["International Conference", "Oral"],
+            "label": []
+        },
+        {
             "title": "Exploring Perceived Amplitude of Roll and Pitch Rotation while Walking on a Treadmill and Standing Still",
             "author": [
                 {
