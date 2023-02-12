@@ -442,6 +442,35 @@
             "number": "1",
             "tag": ["Others"]
 
+        },
+        {
+            "title": "Integrating reflection into a mobile-assisted reading program for learning English as a second language in China",
+            "author": [
+                {
+                    "name": "Fei Wang"
+                },
+                {
+                    "name": "Takaya Yuizono"
+                },
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Eunyong Kim"
+                },
+                {
+                    "name": "Yaqin Lu"
+                }
+            ],
+            "journal": "Frontiers in Education",
+            "volume": "7",
+            "number": "CSCW",
+            "year": 2023,
+            "publisher": "Frontiers", 
+            "paper": "./static/publication/feduc2023.pdf",
+            "doi": "https://doi.org/10.3389/feduc.2022.1067523", 
+            "tag": ["International Journal"],
+            "label": []
         }
     ]
 }
