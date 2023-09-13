@@ -30,6 +30,9 @@ indexJson['publication'] = Mustache.render(publicationTemp, publicationJson);
 
 
 let grantJson = JSON.parse(fs.readFileSync('./static/json/grant.json'));
+
+grantJson["research"] = grantJson["research"].filter((value) => value["startshow"] == undefined || Date.parse(value["startshow"]) < Date.now());
+
 let grantTemp = fs.readFileSync('./static/mustache/grant.mustache').toString();
 indexJson['grant'] = Mustache.render(grantTemp, grantJson);
 

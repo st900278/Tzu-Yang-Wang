@@ -1,6 +1,24 @@
 {
     "publication": [
         {
+            "title": "Effect of distance cue and walking speed on matching and discrimination of visually simulated walking speed in treadmill-based locomotor VR",
+            "author": [
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Hiroyasu Ujike"
+                }
+            ],
+            "journal": "Displays",
+            "volume": "80",
+            "year": 2023,
+            "month": "8",
+            "doi": "https://doi.org/10.1016/j.displa.2023.102511", 
+            "tag": ["International Journal"],
+            "label": []
+        },
+        {
             "title": "Effect of Manipulated Amplitude and Frequency of Human Voice on Dominance and Persuasiveness in Audio Conferences",
             "author": [
                 {
