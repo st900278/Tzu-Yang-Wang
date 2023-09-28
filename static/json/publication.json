@@ -1,6 +1,35 @@
 {
     "publication": [
         {
+            "title": "Explorative Study of Perceived Social Loafing in VR Group Discussion: A Comparison Between the Poster Presentation Environment and the Typical Conference Environment",
+            "author": [
+                {
+                    "name": "Koutaro Kamada"
+                },
+                {
+                    "name": "Ryuya Watarai"
+                },
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Kentaro Takashima"
+                },
+                {
+                    "name": "Yasuyuki Sumi"
+                },
+                {
+                    "name": "Takaya Yuizono"
+                }
+            ],
+            "booktitle": "Interact 2023",
+            "year": 2023,
+            "month": "8",
+            "doi": "https://link.springer.com/chapter/10.1007/978-3-031-42286-7_7", 
+            "tag": ["International Conference", "Oral"],
+            "label": []
+        },
+        {
             "title": "Effect of distance cue and walking speed on matching and discrimination of visually simulated walking speed in treadmill-based locomotor VR",
             "author": [
                 {
@@ -265,7 +294,7 @@
             "paper": "./static/publication/petra2022.pdf",
             "doi": "https://doi.org/10.1145/3529190.3534717", 
             "tag": ["International Conference", "Poster"],
-            "label": []
+            "label": ["Best Poster Award"]
         },
         {
             "title": "Investigating how label supports AR remote collabration",
@@ -482,13 +511,154 @@
             ],
             "journal": "Frontiers in Education",
             "volume": "7",
-            "number": "CSCW",
             "year": 2023,
             "publisher": "Frontiers", 
             "paper": "./static/publication/feduc2023.pdf",
             "doi": "https://doi.org/10.3389/feduc.2022.1067523", 
             "tag": ["International Journal"],
             "label": []
+        },
+        {
+            "title": "Creativity Development through Questioning Activity in Second Language Education",
+            "author": [
+                {
+                    "name": "Xiaoling Yu"
+                },
+                {
+                    "name": "Tzu-Yang Wang*"
+                },
+                {
+                    "name": "Takaya Yuizono"
+                }
+            ],
+            "journal": "Frontiers in Education",
+            "volume": "8",
+            "year": 2023,
+            "publisher": "Frontiers", 
+            "doi": "https://www.frontiersin.org/articles/10.3389/feduc.2023.1178655/full", 
+            "tag": ["International Journal"],
+            "label": []
+        },
+        {
+            "title": "MultiBrush: 3D Brush Painting Using Multiple Viewpoints in Virtual Reality",
+            "author": [
+                {
+                    "name": "Mikiya Kusunoki"
+                },
+                {
+                    "name": "Ryo Furuhama"
+                },
+                {
+                    "name": "Ryusuke Toshima"
+                },
+                {
+                    "name": "Hazuki Mori"
+                },
+                {
+                    "name": "Haoran Xie"
+                },
+                {
+                    "name": "Tzu-Yang Wang"
+                },
+                {
+                    "name": "Takaya Yuizono"
+                },
+                {
+                    "name": "Toshiki Sato"
+                },
+                {
+                    "name": "Kazunori Miyata"
+                }
+            ],
+            "booktitle": "2023 9th International Conference on Virtual Reality (ICVR)",
+            "year": 2023,
+            "month": "5",
+            "addresss": " Xianyang, China",
+            "doi": "https://doi.org/10.1109/ICVR57957.2023.10169798", 
+            "tag": ["International Conference"],
+            "label": []
+        },
+        {
+            "title": "VRグループ・ディスカッションにおける会議形態の違いがターンテイキングに与える影響",
+            "author": [
+                {
+                    "name": "鎌田光太郎"
+                },
+                {
+                    "name": "渡会隆哉"
+                },
+                {
+                    "name": "王子洋"
+                },
+                {
+                    "name": "高島健太郎"
+                },
+                {
+                    "name": "角康之"
+                },
+                {
+                    "name": "由井薗隆也"
+                }
+            ],
+            "booktitle": "第200回ヒューマンインタフェース学会研究会",
+            "year": 2023,
+            "organization": "ヒューマンインタフェース学会研究会",
+            "month": "05",
+            "address": "沖縄",
+            "tag": ["Domestic Conference", "Non-review"]
+        },
+        {
+            "title": "感情変化に注目した機械学習による冒険ストーリー生成の試行",
+            "author": [
+                {
+                    "name": "羅海洋"
+                },
+                {
+                    "name": "由井薗隆也"
+                },
+                {
+                    "name": "鎌田光太郎"
+                },
+                {
+                    "name": "王子洋"
+                }
+            ],
+            "booktitle": "DICOMO2023",
+            "year": 2023,
+            "organization": "DICOMO2023",
+            "month": "07",
+            "address": "富山",
+            "tag": ["Domestic Conference", "Non-review"]
+        },
+        {
+            "title": "VR会議における他者との対面量に着目した会議の質評価の試み",
+            "author": [
+                {
+                    "name": "渡会隆哉"
+                },
+                {
+                    "name": "鎌田光太郎"
+                },
+                {
+                    "name": "角康之"
+                },
+                {
+                    "name": "王子洋"
+                },
+                {
+                    "name": "由井薗隆也"
+                },
+                {
+                    "name": "高島健太郎"
+                }
+            ],
+            "booktitle": "DICOMO2023",
+            "year": 2023,
+            "organization": "DICOMO2023",
+            "month": "07",
+            "address": "富山",
+            "tag": ["Domestic Conference", "Non-review"],
+            "label": ["優秀論文賞"]
         }
     ]
 }
