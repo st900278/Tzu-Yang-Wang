@@ -23,7 +23,22 @@ indexJson['project'] = Mustache.render(projectTemp, projectJson);
 
 let publicationJson = JSON.parse(fs.readFileSync('./static/json/publication.json'));
 publicationJson['publication'].sort(function (a, b) {
-    return b['year'] - a['year'];
+    if (b['year'] != a['year']){
+        return b['year'] - a['year'];
+    }
+    else{
+        if(parseInt(a['month']) == NaN){
+            return -1;
+        }
+        else if(parseInt(b['month']) == NaN){
+            return 1;
+        }
+        else{
+            return parseInt(b['month']) - parseInt(a['month']);
+        }
+        
+    }
+    
 });
 let publicationTemp = fs.readFileSync('./static/mustache/publication.mustache').toString();
 indexJson['publication'] = Mustache.render(publicationTemp, publicationJson);
