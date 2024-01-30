@@ -608,6 +608,46 @@
             "tag": ["Domestic Conference", "Non-review"]
         },
         {
+            "title": "日本人投稿者と中国人視聴者を対象とした弾幕動画サイト「bilibili 動画」におけるオンラインコミュニティの特性調査",
+            "author": [
+                {
+                    "name": "RAOWANG, Mengya"
+                },
+                {
+                    "name": "由井薗隆也"
+                },
+                {
+                    "name": "王子洋"
+                }
+            ],
+            "booktitle": "コラボレーションとネットワークサービスワークショップ2023",
+            "year": 2023,
+            "organization": "コラボレーションとネットワークサービス研究会 (CN研究会)",
+            "month": "11",
+            "address": "群馬",
+            "tag": ["Domestic Conference", "Non-review"]
+        },
+        {
+            "title": "ペアブレインストーミングにおける目標のズレの効果の検討",
+            "author": [
+                {
+                    "name": "王子洋"
+                },
+                {
+                    "name": "周琦"
+                },
+                {
+                    "name": "由井薗隆也"
+                }
+            ],
+            "booktitle": "第121回コラボレーションとネットワークサービス・第39回コンシューマ・デバイス＆システム・第36回デジタルコンテンツクリエーション合同研究発表会",
+            "year": 2024,
+            "organization": "コラボレーションとネットワークサービス研究会 (CN研究会)",
+            "month": "1",
+            "address": "伊豆大島",
+            "tag": ["Domestic Conference", "Non-review"]
+        },
+        {
             "title": "感情変化に注目した機械学習による冒険ストーリー生成の試行",
             "author": [
                 {
